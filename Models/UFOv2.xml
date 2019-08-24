@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- A wrapper file for the UFOv2 3D model           -->
+<!-- License:  GNU GPL Version 2, June 1991          -->
+<!-- Author:   Patrizio Melis                        -->
+<!-- Email:    cobe571@gmail.com                     -->
+
+<PropertyList>
+ <path>UFOv2.ac</path>
+ 
+ <!-- ####################   SPINNING ANIMATION   ################### -->
+ 
+ <animation>
+  <type>spin</type>
+  <object-name>UFO-hatchup</object-name>
+  <object-name>UFO-lights.000</object-name>
+  <object-name>UFO-ring</object-name>
+  <object-name>UFO-top.000</object-name>
+  <object-name>UFO-window</object-name>
+  <property>/velocities/airspeed-kt</property>
+  <factor>0.004</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>  0  </x>
+   <y>  0  </y>
+   <z>  1  </z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>spin</type>
+  <object-name>UFO-bottom.000</object-name>
+  <object-name>UFO-bottom.001</object-name>
+  <object-name>UFO-exhaust.000</object-name>
+  <object-name>UFO-exhaust.001</object-name>
+  <object-name>UFO-hatchdown</object-name>
+  <object-name>UFO-lights.001</object-name>
+  <property>/velocities/airspeed-kt</property>
+  <factor>0.004</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>  0  </x>
+   <y>  0  </y>
+   <z> -1  </z>
+  </axis>
+ </animation>
+
+ <!-- #####################   CLOAKING DEVICE   #################### -->
+
+ <animation>
+  <type>blend</type>
+  <object-name>UFO-bottom.000</object-name>
+  <object-name>UFO-bottom.001</object-name>
+  <object-name>UFO-exhaust.000</object-name>
+  <object-name>UFO-exhaust.001</object-name>
+  <object-name>UFO-hatchdown</object-name>
+  <object-name>UFO-hatchup</object-name>
+  <object-name>UFO-lights.000</object-name>
+  <object-name>UFO-lights.001</object-name>
+  <object-name>UFO-ring</object-name>
+  <object-name>UFO-top.000</object-name>
+  <object-name>UFO-window</object-name>
+   <property>/sim/multiplay/generic/float[0]</property>
+   <factor>1</factor>
+   <min>0</min>
+   <max>1</max>
+ </animation>
+    
+
+</PropertyList>

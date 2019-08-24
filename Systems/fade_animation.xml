@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<filter>
+  <type>noise-spike</type>
+  <max-rate-of-change>0.25</max-rate-of-change>
+  <input>UFOv2/cloaking-command</input>
+  <output>sim/multiplay/generic/float[0]</output>
+</filter>
+
+</PropertyList>
