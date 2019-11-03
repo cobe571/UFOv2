@@ -5,7 +5,7 @@
 A little history
 ========================================================
 With the UFOv2 you can place 3D objects
-in the FlightGear scenery, and inspect the scenery
+into the FlightGear scenery, and inspect the scenery
 without worrying about crashing.
 ========================================================
 
